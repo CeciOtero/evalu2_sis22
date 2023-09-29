@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "748722316181",
+    "project_id": "evalu2sis22",
+    "storage_bucket": "evalu2sis22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748722316181:android:75995b414ad325f17e8c9c",
+        "android_client_info": {
+          "package_name": "com.ceciale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcp9ejW7Z4a9NOQdUaVQV3xLrQLQh9yyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
