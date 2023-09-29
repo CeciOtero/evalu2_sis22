@@ -35,6 +35,10 @@ class _RegistroProductoState extends State<RegistroProducto> {
             controller: nombreController,
             decoration: InputDecoration(labelText: 'Nombre del Producto'),
           ),
+          TextField(
+            controller: nombreController,
+            decoration: InputDecoration(labelText: 'Precio del Producto'),
+          ),
           SizedBox(height: 20.0),
           TextField(
             controller: stockController,
