@@ -23,7 +23,11 @@ class RegistroProducto extends StatefulWidget {
 
 class _RegistroProductoState extends State<RegistroProducto> {
   TextEditingController nombreController = TextEditingController();
+  TextEditingController precioController = TextEditingController();
   TextEditingController stockController = TextEditingController();
+  
+  get precio => null;
+
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +40,8 @@ class _RegistroProductoState extends State<RegistroProducto> {
             decoration: InputDecoration(labelText: 'Nombre del Producto'),
           ),
           TextField(
-            controller: nombreController,
+            controller: precioController,
+             keyboardType: TextInputType.number,
             decoration: InputDecoration(labelText: 'Precio del Producto'),
           ),
           SizedBox(height: 20.0),
@@ -53,7 +58,7 @@ class _RegistroProductoState extends State<RegistroProducto> {
               int stock = int.tryParse(stockController.text) ?? 0;
 
               // Puedes hacer algo con los valores ingresados, como enviarlos a una base de datos.
-              print('Nombre: $nombre, Stock: $stock');
+              print('Nombre: $nombre, Precio: $precio, Stock: $stock');
             },
             child: Text('Guardar'),
           ),
