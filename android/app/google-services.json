@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999339546938",
+    "project_id": "evalu2",
+    "storage_bucket": "evalu2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999339546938:android:ecc3039f0875984b369803",
+        "android_client_info": {
+          "package_name": "com.cecija.evalu2_sis22"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhMIomjQN2r7xM7nyu5c3f2GEDjTdl0-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
